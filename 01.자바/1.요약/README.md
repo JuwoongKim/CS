@@ -23,14 +23,14 @@
 - [디자인패턴](#디자인패턴)
 - [네트워킹](#네트워킹)
 - [웹](#웹)
-- [미분류](#미분류)
+- [기타](#기타)
 
----
+
 
 </br>
 
 ## [주변 개념]
----
+
 <details>
   <summary>자바의 특징에 대해 설명해주세요.</summary>
   </br>
@@ -77,7 +77,7 @@
 </br>
 
 ## [JVM & JAVA 동작원리]
----
+
 
 <details>
   <summary>JDK ,JRE, JVM의 개념과 기능을 설명해주세요.</summary>
@@ -149,7 +149,7 @@
 
 
 ## [GC]
----
+
 
 <details>
   <summary>  Garbage Collector(GC)가 무엇인지,  필요한 이유와 어디에 사용되는지 설명해주세요 </summary>
@@ -215,7 +215,7 @@
 </br>
 
 ## [변수]
----
+
 
 <details>
   <summary>변수, 상수, 리터럴에 대해 설명해주세요</summary>
@@ -362,7 +362,7 @@
 </br>
 
 ## [배열]
----
+
 
 
 <details>
@@ -413,7 +413,7 @@
 </br>
 
 ## [객체지향 언어]
----
+
 </br>
 
 ### 객체지향 패러다임 
@@ -1016,7 +1016,7 @@
 </br>
 
 ## [람다 & 스트림]
----
+
 <details>
   <summary> Lambda란 무엇이고 어떠한 장점이 있는지 설명해주세요 </summary>
   </br>
@@ -1057,7 +1057,7 @@
 </br>
 
 ## [예외 처리]
----
+
 
 <details>
   <summary> Error와 Exception의 차이를 설명해주세요.</summary>
@@ -1127,7 +1127,7 @@
 </br>
 
 ## [컬랙션 프레임워크]
----
+
 
 <details>
   <summary>컬렉션 프레임워크에 대해서 설명해주세요.</summary>
@@ -1202,7 +1202,7 @@
 </br>
 
 ## [리플랙션]
----
+
 
 <details>
   <summary> 리플렉션(Reflection)이란 무엇인지 설명해주세요 </summary>
@@ -1235,7 +1235,7 @@
 </br>
 
 ## [제내릭]
----
+
 
 <details>
   <summary> 제내릭에 대해서 설명해주세요.</summary>
@@ -1252,7 +1252,7 @@
 </br>
 
 ## [열거형]
----
+
 <details>
   <summary> 열거형에 대해서 설명해주세요.</summary>
   </br>
@@ -1268,7 +1268,7 @@
 </br>
 
 ## [쓰레드]
----
+
 <details>
   <summary>  자바에서 쓰레드를 구현하기 위한 2가지 방법을 간단하게 설명하시오. </summary>
   </br>
@@ -1320,7 +1320,7 @@
 </br>
 
 ## [IO & NIO]
----
+
 
 <details>
   <summary>직렬화와 역직렬화에 대해서 설명해주세요.</summary>
@@ -1342,7 +1342,7 @@
 </br>
 
 ## [디자인패턴]
----
+
 <details>
   <summary> 싱글톤 패턴에 대해 설명해주세요.</summary>
   </br>
@@ -1357,22 +1357,20 @@
 </br>
 
 ## [네트워킹]
----
+
 
 
 </br>
 
 ## [웹]
----
+
 
 
 
 </br>
 
 
-## [미문류]
-
----
+## [기타]
 
 <details>
   <summary>final/finally/finalize 의 차이점에 대해서 설명해주세요.</summary>
