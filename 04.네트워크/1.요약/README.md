@@ -4,13 +4,29 @@
 
 
 
+
+</br>
+
+
+## [참고링크]
+
+- https://www.javatpoint.com/computer-network-tutorial
+
+- https://www.geeksforgeeks.org/
+
+- https://www.tutorialspoint.com/tutorialslibrary.htm
+
+- https://www.guru99.com/
+
+- https://www.baeldung.com/
+
+
+
 </br>
 
 ## [목차]
 
-- [개요](#개요)
-- [네트워크 구성요소](#네트워크-구성요소)
-- [데이터 통신](#데이터-전송)
+- [네트워크 기초](#네트워크-기초)
 - [상위계층](#상위계층)
 - [하위계층](#하위계층)
 - [네트워크서비스](#네트워크서비스)
@@ -29,21 +45,170 @@
 
 </br>
 
-## [개요]
+## [네트워크 기초]
+
+</br>
+
+### 기본 개념
+
+<details>
+  <summary> 네트워크에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
+</details>
+
+<details>
+  <summary> 네트워크 타입에 대해 설명해주세요.(= 범위기준)</summary>
+  </br>
+  <p>키워드 : PAN, LAN, WAN , MAN  </p>
+  </br>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
+</details>
+
+<details>
+  <summary> 네트워크 토폴로지와 종류에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :network of networks is called an internetwork  </p>
+  </br>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
+</details>
+
+<details>
+  <summary> Computer Network Models에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : 계층모델, OSI Model, Internet Model(TCP/IP)  </p>
+  </br>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
+</details>
+
+<details>
+  <summary> Computer Network Architecture의 종류와 장단점에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : Peer-To-Peer network Client/Server network</p>
+  </br>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
+</details>
+
+<details>
+  <summary> 네트워크 구성요소에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : Peer-To-Peer network Client/Server network</p>
+  </br>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
+</details>
+
+<details>
+  <summary> Internetwork에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : Peer-To-Peer network Client/Server network</p>
+  </br>
+  <p> An internetwork is defined as two or more computer network LANs or WAN or computer network segments are connected using devices, and they are configured by a local addressing scheme. This process is known as internetworking.</p>
+  <p> An interconnection between public, private, commercial, industrial, or government computer networks can also be defined as internetworking.</p>
+  <p> An internetworking uses the internet protocol.</p>
+  <p>The reference model used for internetworking is Open System Interconnection(OSI).</p>
+</details>
+
+<details>
+  <summary> Internetwork의 종류에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : 인터넷 > 익스트라넷 > 인트라넷 </p>
+  </br>
+  <p>https://www.omnisecu.com/basic-networking/internet-intranet-and-extranet.php</p>
+</details>
+
+<details>
+  <summary> 인터넷이 제공하는 서비스에 대해 아는만큼 설명해주세요.</summary>
+  </br>
+  <p>키워드 :network of networks is called an internetwork  </p>
+  </br>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
+</details>
+
+
+<details>
+  <summary> IP Address에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :network of networks is called an internetwork  </p>
+  </br>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
+</details>
+
+<details>
+  <summary> MAC Address에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :network of networks is called an internetwork  </p>
+  </br>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
+</details>
+
+<details>
+  <summary> Port 에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :network of networks is called an internetwork  </p>
+  </br>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
+</details>
+
+<details>
+  <summary> Socket에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :network of networks is called an internetwork  </p>
+  </br>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
+</details>
+
+</br>
+
+### 네트워크 기준
+
+<details>
+  <summary> 네트워크가 만족시켜야 하는 기준에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :Performance, Reliability, Security  </p>
+  </br>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
+</details>
+
+<details>
+  <summary> Performance의 정의와 측정요소에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :Performance, Reliability, Security  </p>
+  </br>
+  <p>It is measured in terms of transit time and response time. </p>
+  <p> Performance is dependent on the following factors: 
+    The number of users, Type of transmission medium , Capability of connected network , Efficiency of software  
+  </p>
+</details>
+
+
+<details>
+  <summary> Reliability 의 정의와 측정요소에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :Performance, Reliability, Security  </p>
+  </br>
+  <p>It is measured in terms of transit time and response time. </p>
+  <p> Performance is dependent on the following factors: Frequency of failure, Recovery from failures, Robustness during catastrophe
+  </p>
+</details>
+
+<details>
+  <summary> Security의 정의와 측정요소에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :Performance, Reliability, Security  </p>
+  </br>
+  <p> It means protecting data from unauthorized access.  </p>
+
+</details>
+
+
 
 
 
 </br>
 
-### 네트워크 기본용어
-
-
-
-</br>
-
-### 네트워크의 기본규칙 
-
-
+### 네트워크 모델 상세
 
 <details>
   <summary> 네트워크의 대표적인 2 가지 모델에 대해 설명해주세요.</summary>
@@ -103,51 +268,17 @@
 
 
 
+</br>
+
+### 네트워크 구성 상세
 
 </br>
 
-## [네트워크 구성]
-
-</br>
-
-### 단말기 (네트워크 종단장치)
-
-
+#### 1. 네트워크 인터페이스 카드 (NIC) 
 
 
 <details>
-  <summary>  MAC 주소와 IP 주소에 대해 설명해주세요.</summary>
-  </br>
-  <p>키워드 :  </p>
-  </br>
-  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
-</details>
-
-<details>
-  <summary>  공인(public) IP와 사설(private) IP의 차이에 대해 설명해주세요.</summary>
-  </br>
-  <p>키워드 :  </p>
-  </br>
-  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
-</details>
-
-<details>
-  <summary> 서브넷 마스크와 서브넷팅에 대해 설명해주세요.</summary>
-  </br>
-  <p>키워드 :  </p>
-  </br>
-  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
-</details>
-
-
-
-
-</br>
-
-### 전송매체 
-
-<details>
-  <summary> 전송매체 개념에 대해 설명해주세요</summary>
+  <summary> NIC에 대해 설명해주세요.</summary>
   </br>
   <p>키워드 :  </p>
   </br>
@@ -156,19 +287,7 @@
 
 
 <details>
-  <summary> 채녈 개념에 대해 설명해주세요</summary>
-  </br>
-  <p>키워드 :  </p>
-  </br>
-  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
-</details>
-
-
-
-
-
-<details>
-  <summary> 전송매체 연결형태에 대해 설명해주세요.(= 네트워크 토폴로지)</summary>
+  <summary> NIC의 역할에 대해 설명해주세요.</summary>
   </br>
   <p>키워드 :  </p>
   </br>
@@ -177,34 +296,7 @@
 
 
 <details>
-  <summary> 전송매체의 종류에  대해 설명해주세요.</summary>
-  </br>
-  <p>키워드 :  </p>
-  </br>
-  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
-</details>
-
-
-<details>
-  <summary> 유선 전송 매체에 대해 설명해주세요.</summary>
-  </br>
-  <p>키워드 :  </p>
-  </br>
-  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
-</details>
-
-<details>
-  <summary> 무선 전송 매체에 대해 설명해주세요.</summary>
-  </br>
-  <p>키워드 :  </p>
-  </br>
-  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
-</details>
-
-
-
-<details>
-  <summary> 케이블의 종류에 대해 설명해주세요.</summary>
+  <summary> 유선 NIC와 무선 NIC에 대해 설명해주세요.</summary>
   </br>
   <p>키워드 :  </p>
   </br>
@@ -215,8 +307,81 @@
 </br>
 
 
-### 네트워크 장비 (네트워크 내부장치)
+#### 2. 전송매체 (Transmission Media)
 
+<details>
+  <summary> 전송매체의 종류에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>여기서 말하는 컴퓨터는 통신 주체를 의미한다.  논리적으로 아키택쳐에 따라 server-client 또는 peer를 의미한다.</p>
+</details>
+
+<details>
+  <summary> 유선 전송매체의 종류별 특징에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : 꼬임선, 동축케이블, 광섬유  </p>
+  </br>
+  <p>여기서 말하는 컴퓨터는 통신 주체를 의미한다.  논리적으로 아키택쳐에 따라 server-client 또는 peer를 의미한다.</p>
+</details>
+
+<details>
+  <summary> 케이블과 커넥터에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>여기서 말하는 컴퓨터는 통신 주체를 의미한다.  논리적으로 아키택쳐에 따라 server-client 또는 peer를 의미한다.</p>
+</details>
+
+
+
+<details>
+  <summary> 무선 전송매체의 종류별 특징에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : 라디오파, 마이크로파  </p>
+  </br>
+  <p>여기서 말하는 컴퓨터는 통신 주체를 의미한다.  논리적으로 아키택쳐에 따라 server-client 또는 peer를 의미한다.</p>
+</details>
+
+</br>
+
+#### 3. 컴퓨터 (Transmission Media)
+
+<details>
+  <summary> 네트워크에서의미하는 컴퓨터에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>여기서 말하는 컴퓨터는 통신 주체를 의미한다.  논리적으로 아키택쳐에 따라 server-client 또는 peer를 의미한다.</p>
+</details>
+
+<details>
+  <summary> Client의 역할에 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>여기서 말하는 컴퓨터는 통신 주체를 의미한다.  논리적으로 아키택쳐에 따라 server-client 또는 peer를 의미한다.</p>
+</details>
+
+<details>
+  <summary> Server의 역할에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>여기서 말하는 컴퓨터는 통신 주체를 의미한다.  논리적으로 아키택쳐에 따라 server-client 또는 peer를 의미한다.</p>
+</details>
+
+<details>
+  <summary> Peer의 개념에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>여기서 말하는 컴퓨터는 통신 주체를 의미한다.  논리적으로 아키택쳐에 따라 server-client 또는 peer를 의미한다.</p>
+</details>
+
+</br>
+
+#### 4. 네트워크 장비 (Connecting Devices, 보안) 
 
 <details>
   <summary> 브릿지에 대해 설명해주세요.</summary>
@@ -251,8 +416,6 @@
   <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
 </details>
 
-
-
 <details>
   <summary> 라우터에 대해 설명해주세요.</summary>
   </br>
@@ -269,8 +432,6 @@
   <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
 </details>
 
-
-
 <details>
   <summary> 게이트웨이에 대해 설명해주세요.</summary>
   </br>
@@ -279,135 +440,33 @@
   <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
 </details>
 
-
-</br>
-
-### 네트워크 인터페이스 (=랜카드 =네트워크 인터페이스 카드 = 네트워크 어댑터)
-
-
-
-
-
-
-
-</br>
-
-## [데이터 통신]
-
-
-
 <details>
-  <summary> 데이터 전송 방법에 대해 설명해주세요.</summary>
-  </br>
-  <p>키워드 : 병렬과 직렬, 동기식 비동직식, 단방향 반이중 전이중 </p>
-  </br>
-  <p>사용자를 위한 계층으로 분류 합니다. 소프트웨어 형태로 구현되는 것이 일반적인 개념입니다.</p>
-</details>
-
-
-<details>
-  <summary> 데이터 교환 기술에 대해 설명해주세요.</summary>
-  </br>
-  <p>키워드 : 회선교환, 패킷교환, 메세지 교환  </p>
-  </br>
-  <p>사용자를 위한 계층으로 분류 합니다. 소프트웨어 형태로 구현되는 것이 일반적인 개념입니다.</p>
-</details>
-
-
-
-<details>
-  <summary> 회선교환에 대해 설명해주세요.</summary>
+  <summary> NAT에 대해 설명해주세요.</summary>
   </br>
   <p>키워드 :  </p>
   </br>
-  <p>사용자를 위한 계층으로 분류 합니다. 소프트웨어 형태로 구현되는 것이 일반적인 개념입니다.</p>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
 </details>
 
-
 <details>
-  <summary> 패킷 교환에 대해 설명해주세요.</summary>
+  <summary> 로드벨런서에 대해 설명해주세요.</summary>
   </br>
   <p>키워드 :  </p>
   </br>
-  <p>사용자를 위한 계층으로 분류 합니다. 소프트웨어 형태로 구현되는 것이 일반적인 개념입니다.</p>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
 </details>
 
-
 <details>
-  <summary> 메세지 교환에 대해 설명해주세요.</summary>
-  </br>
-  <p>키워드 : https://soniacomp.medium.com/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%9D%BC%EB%A9%B4-%EC%95%8C%EC%95%84%EC%95%BC%ED%95%A0-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EA%B8%B0%EC%B4%88-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%86%B5%EC%8B%A0-5945919415f5  </p>
-  </br>
-  <p>사용자를 위한 계층으로 분류 합니다. 소프트웨어 형태로 구현되는 것이 일반적인 개념입니다.</p>
-</details>
-
-
-<details>
-  <summary> 패킷 교환중 데이터그램 방식에 대해 설명해주세요.</summary>
+  <summary> 리피터에 대해 설명해주세요.</summary>
   </br>
   <p>키워드 :  </p>
   </br>
-  <p>사용자를 위한 계층으로 분류 합니다. 소프트웨어 형태로 구현되는 것이 일반적인 개념입니다.</p>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
 </details>
 
 
 <details>
-  <summary> 패킷 교환중 가상회선 방식에 대해 설명해주세요.</summary>
-  </br>
-  <p>키워드 :  </p>
-  </br>
-  <p>사용자를 위한 계층으로 분류 합니다. 소프트웨어 형태로 구현되는 것이 일반적인 개념입니다.</p>
-</details>
-
-
-<details>
-  <summary> 오류 검출과 교정 기법에 대해 설명해주세요.</summary>
-  </br>
-  <p>키워드 :  </p>
-  </br>
-  <p>사용자를 위한 계층으로 분류 합니다. 소프트웨어 형태로 구현되는 것이 일반적인 개념입니다.</p>
-</details>
-
-
-<details>
-  <summary> 단순 패리티 검사(Parity Check):에 대해 설명해주세요.</summary>
-  </br>
-  <p>키워드 :  </p>
-  </br>
-  <p>사용자를 위한 계층으로 분류 합니다. 소프트웨어 형태로 구현되는 것이 일반적인 개념입니다.</p>
-</details>
-
-<details>
-  <summary> 첵섬(Checksum)에 대해 설명해주세요.</summary>
-  </br>
-  <p>키워드 :  </p>
-  </br>
-  <p>사용자를 위한 계층으로 분류 합니다. 소프트웨어 형태로 구현되는 것이 일반적인 개념입니다.</p>
-</details>
-
-
-<details>
-  <summary> 순환 중복 검사(CRC: Cyclic Redundancy Check)에 대해 설명해주세요.</summary>
-  </br>
-  <p>키워드 :  </p>
-  </br>
-  <p>사용자를 위한 계층으로 분류 합니다. 소프트웨어 형태로 구현되는 것이 일반적인 개념입니다.</p>
-</details>
-
-
-<details>
-  <summary> 해밍 코드(오류 교정코드)에 대해 설명해주세요.</summary>
-  </br>
-  <p>키워드 :  </p>
-  </br>
-  <p>사용자를 위한 계층으로 분류 합니다. 소프트웨어 형태로 구현되는 것이 일반적인 개념입니다.</p>
-</details>
-
-
-
-
-<details>
-  <summary> 인터네트워킹에 대해 설명해주세요.</summary>
+  <summary> 모뎀에 대해 설명해주세요.</summary>
   </br>
   <p>키워드 :  </p>
   </br>
@@ -418,7 +477,133 @@
 
 
 
+</br>
 
+#### 5. 소프트웨어 
+
+<details>
+  <summary> NOS에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
+</details>
+
+
+<details>
+  <summary> Protocal Suit 에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
+</details>
+
+
+
+</br>
+
+### LAN 사용기술
+
+<details>
+  <summary> Ethernet에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :network of networks is called an internetwork  </p>
+  </br>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
+</details>
+
+<details>
+  <summary> Fast-Ethernet에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :network of networks is called an internetwork  </p>
+  </br>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
+</details>
+
+<details>
+  <summary> Giga-Ethernet에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :network of networks is called an internetwork  </p>
+  </br>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
+</details>
+
+<details>
+  <summary> VLAN(=Virtual LAN)에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :network of networks is called an internetwork  </p>
+  </br>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
+</details>
+
+
+
+</br>
+
+### 이동 에드훅 네트워크
+
+<details>
+  <summary> Mobile Ad hoc Network (MANET)의 개념, 특징, 장단점에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :network of networks is called an internetwork  </p>
+  </br>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
+</details>
+
+
+<details>
+  <summary> Mobile Ad hoc Network (MANET)의 종류에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :network of networks is called an internetwork  </p>
+  </br>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
+</details>
+
+
+</br>
+
+### 기타 용어 
+
+
+<details>
+  <summary> DSL에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :network of networks is called an internetwork  </p>
+  </br>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
+</details>
+
+<details>
+  <summary> bps에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :network of networks is called an internetwork  </p>
+  </br>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
+</details>
+
+<details>
+  <summary> ISP에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :network of networks is called an internetwork  </p>
+  </br>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
+</details>
+
+<details>
+  <summary> 대역폭에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :network of networks is called an internetwork  </p>
+  </br>
+  <p>면접 단골 문제입니다. 면접관 입장에서는 한 질문으로 많은 답변을 들을 수 있기 때문에 대부분의 면접자리에서 나왔던 문제입니다. OSI 7계층과도 연관지어 설명하라는 질문을 받은적도 있습니다.</p>
+</details>
+
+
+
+
+
+
+
+</br>
 
 
 </br>
@@ -438,7 +623,7 @@
 
 </br>
 
-#### 응용계층
+### 응용계층
 
 <details>
   <summary> 응용계층의 역할에 대해 설명해주세요.</summary>
@@ -473,6 +658,24 @@
 </details>
 
 <details>
+  <summary> SNMP 프로토콜에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+<details>
+  <summary> Telnet 프로토콜에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+
+
+<details>
   <summary> FTP 프로토콜에 대해 설명해주세요.</summary>
   </br>
   <p>키워드 :  </p>
@@ -487,6 +690,15 @@
   </br>
   <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
 </details>
+
+<details>
+  <summary>  DHCP 프로토콜에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
 
 <details>
   <summary> IRC 프로토콜에 대해 설명해주세요.</summary>
@@ -504,8 +716,13 @@
   <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
 </details>
 
-
-
+<details>
+  <summary> POP 프로토콜에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
 
 
 <details>
@@ -621,11 +838,59 @@
 
 
 
+<details>
+  <summary>application processe 통신방식의 종류에 대해 설명해주세요</summary>
+  </br>
+  <p>키워드 : Peer-to-peer, Client-Server   </p>
+  </br>
+  <p>굳이 끼워넣는다면 세션계층에 있는 프로토콜이라고 하지만 중요한 것은  TCP 프로토콜과 HTTP 프로토콜사이에서 동작하는 프로토콜이라고 정리하면 됨.</p>
+</details>
+
+<details>
+  <summary>Client-Server의 두 과정에 대해 설명해주세요</summary>
+  </br>
+  <p>키워드 : Sockets, Remote Procedure Calls (RPC)  </p>
+  </br>
+  <p>굳이 끼워넣는다면 세션계층에 있는 프로토콜이라고 하지만 중요한 것은  TCP 프로토콜과 HTTP 프로토콜사이에서 동작하는 프로토콜이라고 정리하면 됨.</p>
+</details>
+
+<details>
+  <summary>DNS의 동작원리에 대해 설명해주세요</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>굳이 끼워넣는다면 세션계층에 있는 프로토콜이라고 하지만 중요한 것은  TCP 프로토콜과 HTTP 프로토콜사이에서 동작하는 프로토콜이라고 정리하면 됨.</p>
+</details>
+
+
+<details>
+  <summary>DNS서버가 TCP가 아닌 UDP를 사용하는 이유에 대해 설명해주세요</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>굳이 끼워넣는다면 세션계층에 있는 프로토콜이라고 하지만 중요한 것은  TCP 프로토콜과 HTTP 프로토콜사이에서 동작하는 프로토콜이라고 정리하면 됨.</p>
+</details>
+
+
+<details>
+  <summary>DHCP서버가IP 동적할당을 하는 동작과정에 대해 설명해주세요</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>굳이 끼워넣는다면 세션계층에 있는 프로토콜이라고 하지만 중요한 것은  TCP 프로토콜과 HTTP 프로토콜사이에서 동작하는 프로토콜이라고 정리하면 됨.</p>
+</details>
+
+
+
+
+
+
+
 
 
 </br>
 
-#### 표현계층
+### 표현계층
 
 <details>
   <summary> 표현계층의 역할에 대해 설명해주세요.</summary>
@@ -694,10 +959,10 @@
 
 
 
+</br>
 
 
-
-#### 세션게층
+### 세션게층
 
 <details>
   <summary> 세션계층의 역할에 대해 설명해주세요.</summary>
@@ -733,11 +998,10 @@
 
 
 
-
 </br>
 
 
-#### 전송계층
+### 전송계층
 
 
 <details>
@@ -793,6 +1057,121 @@
 
 
 <details>
+  <summary> TCP헤더의 구조별 역할에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+
+
+<details>
+  <summary> TCP 프로토콜의 Connection Management를 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+
+<details>
+  <summary> TCP 프로토콜의 Error Control(=오류제어), and Flow Control(=흐름제어)를 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+
+<details>
+  <summary> TCP 프로토콜의 Congestion Control (=혼잡제어)를 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+
+<details>
+  <summary> Traffic Shaping 를 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+
+<details>
+  <summary> Traffic Shaping를 위한 대표적인 알고리즘을 설명해주세요.</summary>
+  </br>
+  <p>키워드 : Leaky Bucket, Token Bucket </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+
+
+
+
+<details>
+  <summary> TCP 프로토콜의 Timer Management를 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+
+
+<details>
+  <summary> TCP 프로토콜의 Flag에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : SYN, ACK, FIN , RST </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+
+
+<details>
+  <summary> TCP 프로토콜의 Crash Recovery를 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+
+<details>
+  <summary> UDP헤더의 구조별 역할에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+
+
+<details>
+  <summary> UDP헤더 기반의 application 종류와 이유를  설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+
+<details>
+  <summary> 전송게층의 Multiplexing 과 DeMultiplexing를 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+
+<details>
   <summary> 주요 네트워크 장비에 대해 설명해주세요.</summary>
   </br>
   <p>키워드 :  </p>
@@ -809,9 +1188,7 @@
 </br>
 
 
-#### 네트워크 계층
-
-
+### 네트워크 계층
 
 <details>
   <summary> 네트워크 계층의 특징과 역할에 대해 설명해주세요.</summary>
@@ -833,7 +1210,15 @@
 
 
 <details>
-  <summary> IP 프로토콜에 대해 설명해주세요.</summary>
+  <summary> IPv4 프로토콜에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+<details>
+  <summary> IPv6 프로토콜에 대해 설명해주세요.</summary>
   </br>
   <p>키워드 :  </p>
   </br>
@@ -874,6 +1259,34 @@
   <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
 </details>
 
+<details>
+  <summary> 인터네트워킹에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : Routing between two networks is called internetworking. </p>
+  </br>
+  <p>Protocols or IGP. RIP, OSPF are examples of IGP. Routing between different organizations or administrations may have Exterior Gateway Protocol, and there is only one EGP i.e. Border Gateway Protocol.</p>
+</details>
+
+
+<details>
+  <summary> 터널링에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다.</p>
+</details>
+
+<details>
+  <summary> Packet Fragmentation (= IP 단편화)에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다.</p>
+</details>
+
+
+
+
 
 
 <details>
@@ -881,15 +1294,116 @@
   </br>
   <p>키워드 :  </p>
   </br>
-  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다.</p>
 </details>
+
+<details>
+  <summary> 라우팅 결정요소에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : Hop Count, Bandwidth, Metric, Prefix-length, Delay
+  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다.</p>
+</details>
+
+
+<details>
+  <summary> 유니캐스트 라우팅에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다.</p>
+</details>
+
+<details>
+  <summary> 브로드캐스트 라우팅에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다.</p>
+</details>
+
+<details>
+  <summary> 멀티캐스트 라우팅에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다.</p>
+</details>
+
+<details>
+  <summary> 애니캐스트 라우팅에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다.</p>
+</details>
+
+
+<details>
+  <summary> Multicast Routing Protocols에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다.</p>
+</details>
+
+
+<details>
+  <summary> Unicast Routing Protocols에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다.</p>
+</details>
+
+<details>
+  <summary> 라우팅 알고리즘에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : Flooding, Shortest Path  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다.</p>
+</details>
+
+<details>
+  <summary> Collision Domain에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : Flooding, Shortest Path  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다.</p>
+</details>
+
+<details>
+  <summary>  Broadcast Domain에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : Flooding, Shortest Path  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다.</p>
+</details>
+
+<details>
+  <summary>  IP주소에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : Flooding, Shortest Path  </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다.</p>
+</details>
+
+
+
+
+
+
+
+
+
 
 
 
 
 </br>
 
-#### 데이터링크 계층
+### 데이터링크 계층
 
 
 <details>
@@ -945,6 +1459,88 @@
 </details>
 
 
+</br>
+
+#### 오류 => 오류검출 or 교정 기법
+
+<details>
+  <summary> 오류의 종류와 특징에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : Single bit error, Multiple bits error, Burst error  </p>
+  </br>
+  <p>사용자를 위한 계층으로 분류 합니다. 소프트웨어 형태로 구현되는 것이 일반적인 개념입니다.</p>
+</details>
+
+<details>
+  <summary> 오류검출 = 단순 패리티 검사(Parity Check):에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>사용자를 위한 계층으로 분류 합니다. 소프트웨어 형태로 구현되는 것이 일반적인 개념입니다.</p>
+</details>
+
+<details>
+  <summary> 오류검출 = 순환 중복 검사(CRC: Cyclic Redundancy Check)에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>사용자를 위한 계층으로 분류 합니다. 소프트웨어 형태로 구현되는 것이 일반적인 개념입니다.</p>
+</details>
+
+<details>
+  <summary> 첵섬(Checksum)에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>사용자를 위한 계층으로 분류 합니다. 소프트웨어 형태로 구현되는 것이 일반적인 개념입니다.</p>
+</details>
+
+<details>
+  <summary> Backward Error Correction 과 Forward Error Correction에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>사용자를 위한 계층으로 분류 합니다. 소프트웨어 형태로 구현되는 것이 일반적인 개념입니다.</p>
+</details>
+
+<details>
+  <summary> 해밍 코드(오류 교정코드)에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>사용자를 위한 계층으로 분류 합니다. 소프트웨어 형태로 구현되는 것이 일반적인 개념입니다.</p>
+</details>
+
+
+</br>
+
+### 제어
+
+<details>
+  <summary> Flow Control에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : Stop and Wait, Sliding Window   </p>
+  </br>
+  <p>사용자를 위한 계층으로 분류 합니다. 소프트웨어 형태로 구현되는 것이 일반적인 개념입니다.</p>
+</details>
+
+<details>
+  <summary> Error Control에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : Error detection, Positive ACK, Negative ACK, Retransmission </p>
+  </br>
+  <p>사용자를 위한 계층으로 분류 합니다. 소프트웨어 형태로 구현되는 것이 일반적인 개념입니다.</p>
+</details>
+
+
+<details>
+  <summary> ARQ의 개념과 종류에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : Stop and Wait, Sliding Window   </p>
+  </br>
+  <p>사용자를 위한 계층으로 분류 합니다. 소프트웨어 형태로 구현되는 것이 일반적인 개념입니다.</p>
+</details>
+
 
 
 
@@ -952,9 +1548,7 @@
 
 </br>
 
-#### 물리계층
-
-
+### 물리계층
 
 <details>
   <summary> 물리계층의 특징과 역할에 대해 설명해주세요.</summary>
@@ -974,34 +1568,217 @@
   <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
 </details>
 
+<details>
+  <summary> 데이터 전달의 두가지 특성에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : Connectionless,  Connection Oriented </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+<details>
+  <summary> Switching(=교환기술)에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : speed of transmission of information, (Bandwidth, Error-rate, Encoding ) </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
 
 
+<details>
+  <summary> Switching(=교환기술)의 장단점에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : speed of transmission of information, (Bandwidth, Error-rate, Encoding ) </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+<details>
+  <summary> Switching(=교환기술)의 모드에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : Store-and-forward, Cut-through Switching, Fragment-free Switching ) </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+
+<details>
+  <summary> Switching(=교환기술)의 기술 종류와 특징에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : speed of transmission of information, (Bandwidth, Error-rate, Encoding ) </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+<details>
+  <summary> 회선 교환방식의 장단점에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : speed of transmission of information, (Bandwidth, Error-rate, Encoding ) </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+
+<details>
+  <summary> 메세지 교환방식에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : speed of transmission of information, (Bandwidth, Error-rate, Encoding ) </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+
+<details>
+  <summary> 패킷 교환방식에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : speed of transmission of information, (Bandwidth, Error-rate, Encoding ) </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+
+<details>
+  <summary> 데이터그램 패킷 교환방식에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : speed of transmission of information, (Bandwidth, Error-rate, Encoding ) </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+<details>
+  <summary> 가상회선 패킷 교환방식에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : speed of transmission of information, (Bandwidth, Error-rate, Encoding ) </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다.</p>
+</details>
+
+
+<details>
+  <summary> Multiplexing에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : speed of transmission of information, (Bandwidth, Error-rate, Encoding ) </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다.</p>
+</details>
+
+<details>
+  <summary> Multiplexing의 종류에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : speed of transmission of information, (Bandwidth, Error-rate, Encoding ) </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다.</p>
+</details>
+
+
+<details>
+  <summary> Channel Capacity의 개념과 구성요소에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : speed of transmission of information, (Bandwidth, Error-rate, Encoding ) </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다.</p>
+</details>
+
+
+
+<details>
+  <summary> 전송메체(=Transmission Media ) 의 종류에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : Guided Media, Unguided Media </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다.</p>
+</details>
+
+<details>
+  <summary> 유선 전송매체의 종류에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : Parallel Transmission, Serial Transmission,  Asynchronous Serial Transmission, Synchronous Serial Transmission </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+<details>
+  <summary> 무선 전송매체 구성요소, 동작방식, 종류에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : Parallel Transmission, Serial Transmission,  Asynchronous Serial Transmission, Synchronous Serial Transmission </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+
+<details>
+  <summary> 데이터 전송 모드에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : Parallel Transmission, Serial Transmission,  Asynchronous Serial Transmission, Synchronous Serial Transmission , simple, half duplex, full duplex </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+<details>
+  <summary> Signals의 개념과 종류및 특성을 설명해주세요.</summary>
+  </br>
+  <p>키워드 : Digital Signals, Analog Signals </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+
+<details>
+  <summary> 전송손상(-Transmission ImpairmentSignals)의 이유에 대해 아는만큼 설명해주세요.</summary>
+  </br>
+  <p>키워드 : Digital Signals, Analog Signals </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+</br>
+
+#### Digital-to-Digital Conversion
+
+<details>
+  <summary> Line Coding에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : speed of transmission of information, (Bandwidth, Error-rate, Encoding ) </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
+
+
+<details>
+  <summary> Block Coding에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 : speed of transmission of information, (Bandwidth, Error-rate, Encoding ) </p>
+  </br>
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
+</details>
 
 
 
 </br>
 
-## [TCP/IP 모델]
+
+#### Analog-to-Digital Conversion
+
 
 <details>
-  <summary> TCP/IP 모델에 대해 설명해주세요.</summary>
+  <summary> Pulse Code Modulation (PCM)에 대해 설명해주세요.</summary>
   </br>
-  <p>키워드 :  </p>
+  <p>키워드 : speed of transmission of information, (Bandwidth, Error-rate, Encoding ) </p>
   </br>
-  <p>OSI가 이론적 표준이라면 TCP/IP는 실무적 표준.</p>
-
-  <p>  OSI 모델을 기반으로 실무적으로 이용할 수 있도록 현실에 맞춰 단순화된 모델.쉽게 말해 OSI 7계층 이론을 실제 사용하는, 즉 실용성에 기반을 둔 현대의 인터넷 표준
- </p>
-
-  <p>네트워크 전송 시 데이터 표준을 정리한 것이 OSI 7계층이었다면, 이 이론을 실제로 사용하는 인터넷 표준이 TCP/IP 4계층이다. TCP/IP는 2개의 계층으로 이루어진 프로그램이다.
-  </p>
-
-  <p> TCP/IP는 2개의 계층으로 구분한다.
-  TCP(상위계층) : 메세지나 파일을 작은 패킷으로 나누거나 재조립하여 송수신에 반영하는 일을 담당 
-  IP(하위계층) : 각 패킷의 주소 부분들을 처리하여 패킷들이 목적지로 정확히 송수신되도록 기능함
-  </p>
-
+  <p>물리게층에는 별도로 사용되는 프로토콜이 없으며 랜선, 허브, 리피터 같은 디바이스들만 존재한다..</p>
 </details>
+
+
+</br>
+
+
+#### Digital-to-Analog Conversion
+
+
+</br>
+
+
+#### Analog-to-Analog Conversion
 
 
 
@@ -1009,9 +1786,44 @@
 
 ## [네트워크 서비스]
 
+### Directory Services
+
+### File Services
+
+### Communication Services
+
+### Application Services
+
 </br>
 
 ## [웹]
+
+
+<details>
+  <summary> 웹에 대해서 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>하위게층일수록 하드웨어에 가까워지고 상위계층일록 소프트웨어에 가까움</p>  
+</details>
+
+
+<details>
+  <summary>  웹 통신의 큰 흐름: https://www.google.com/ 을 접속할 때 일어나는 일에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>하위게층일수록 하드웨어에 가까워지고 상위계층일록 소프트웨어에 가까움</p>  
+</details>
+
+<details>
+  <summary> 웹문서의 구성요소에 대해서 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>하위게층일수록 하드웨어에 가까워지고 상위계층일록 소프트웨어에 가까움</p>  
+</details>
+
 
 
 
@@ -1038,10 +1850,79 @@
 </details>
 
 
+<details>
+  <summary> DNS Spoofing에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>하위게층일수록 하드웨어에 가까워지고 상위계층일록 소프트웨어에 가까움</p>
+</details>
+
+
+
+<details>
+  <summary> DNS Cache poisoning에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>하위게층일수록 하드웨어에 가까워지고 상위계층일록 소프트웨어에 가까움</p>
+</details>
+
+
+
+
+
 
 </br>
 
 ## [이중화 기술]
+
+<details>
+  <summary> 이중화 기술(Redundant Link) 에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p> https://egstory.net/edge-study/tech-lesson/aos-cx-switching/591/ </p>
+</details>
+
+<details>
+  <summary> 이중화 기술이 발생시키는 문제에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>하위게층일수록 하드웨어에 가까워지고 상위계층일록 소프트웨어에 가까움</p>
+</details>
+
+<details>
+  <summary> 브로드캐스트 스톰 (Broadcast Storm)에  대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>하위게층일수록 하드웨어에 가까워지고 상위계층일록 소프트웨어에 가까움</p>
+</details>
+
+
+<details>
+  <summary> 다중 프레임 복사 (Multiple Frame Copy)에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>하위게층일수록 하드웨어에 가까워지고 상위계층일록 소프트웨어에 가까움</p>
+</details>
+
+
+<details>
+  <summary> MAC주소 테이블 불안정 (Instability of MAC address Table)에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>하위게층일수록 하드웨어에 가까워지고 상위계층일록 소프트웨어에 가까움</p>
+</details>
+
+
+
+
+
 
 </br>
 
@@ -1060,6 +1941,15 @@
 
 <details>
   <summary> Connection Timeout과 Read Timeout의 차이에 대해 설명해주세요.</summary>
+  </br>
+  <p>키워드 :  </p>
+  </br>
+  <p>하위게층일수록 하드웨어에 가까워지고 상위계층일록 소프트웨어에 가까움</p>  
+</details>
+
+
+<details>
+  <summary>  Network Operating System에 대해 설명해주세요.</summary>
   </br>
   <p>키워드 :  </p>
   </br>
